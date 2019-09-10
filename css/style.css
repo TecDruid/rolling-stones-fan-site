@@ -14,12 +14,6 @@ body {
 
 }
 
-.navbar {
-    margin-bottom: 0;
-    border-width: 0;
-    background-color: rgba (0, 0, 0, 0.25);
-}
-
 .navbar .navbar-brand {
     font-weight: bold;
 }
@@ -61,6 +55,22 @@ body {
     position: relative;
 }
 
+.callout2-container {
+    height: 100vh;
+
+    background: url('../img/the-rolling-stones-bg2.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -69,8 +79,6 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-.quotes-container {}
 
 .features-container {
     background-color: #c9572b;

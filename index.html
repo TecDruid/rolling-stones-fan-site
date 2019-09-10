@@ -7,6 +7,7 @@
     <title>The Rolling Stones | The Sounds of Legends</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
@@ -15,7 +16,7 @@
     <!--Nav-->
     <div class="nav-container"></div>
     <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
-        <a href="/" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
                     The Rolling Stones</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,28 +24,30 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Tours
+          Members
         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Irish</a>
-                        <a class="dropdown-item" href="#">Scotch</a>
-                        <a class="dropdown-item" href="#">Japanese</a>
-                        <a class="dropdown-item" href="#">American</a>
+                        <a class="dropdown-item" href="brian-jones.html">Brian Jones</a>
+                        <a class="dropdown-item" href="mick-jagger.html">Mick Jagger</a>
+                        <a class="dropdown-item" href="keith-richards.html">Keith Richards</a>
+                        <a class="dropdown-item" href="bill-wyman.html">Bill Wyman</a>
+                        <a class="dropdown-item" href="charlie-watts.html">Charlie Watts</a>
+                        <a class="dropdown-item" href="ronnie-wood.html">Ronnie Wood</a>
+                        <a class="dropdown-item" href="ian-stewart.html">Ian Stewart</a>
+                        <a class="dropdown-item" href="mike-taylor.html">Mick Taylor</a>
                     </div>
                 </li>
 
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="sign-up.html">Sign Up</a></li>
             </ul>
         </div>
         <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
-            <a href="/login " class="btn--cta btn--brown">Sign In / Sign Up</a>
+            <p class="navbar-text my-auto mr-2"><i>Sign up for all the latest Rolling Stone news</i></p>
+            <a href="sign-up.html" class="btn--cta btn--brown">Sign Up</a>
         </div>
-        <!--</div>-->
     </nav>
 
     <!-- alert -->
@@ -52,7 +55,7 @@
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+                    <strong>New Tour!</strong>New Rolling Stones Tour <a href="#">Learn more here!</a>
                 </div>
             </div>
         </div>
@@ -62,54 +65,30 @@
     <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp;</div <div class="row">
         <div class="col-12">
-            <section class="callout jumbotron text-center">
-                <h1>The finest whiskeys delivered to your doorstep.</h1>
-                <hr class="block-divider block-divider--orange">
-                <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
-                    <s class="d-none d-sm-inline">€19.99</s>
-                    <span class="d-inline d-sm-none"><br></span>
-                    <strong>First one is free!</strong></p>
-                <p><button class="btn btn-lg btn--cta btn--brown" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
-                <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
-            </section>
         </div>
     </div>
     <!-- /.callout -->
 
 
-    <!-- Testimonials -->
+    <!-- About -->
 
-    <div class="testimonials-container">
-        <section class="testimonials">
+    <div class="About-container">
+        <section class="About">
             <div class="row">
                 <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Testimonials:</h2>
+                    <h2 class="text-uppercase">About</h2>
                     <hr />
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="img/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            <img src="img/rosto.png" height=100 width=100>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                                <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="img/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I haven't been sober for months!</p>
-                                <footer class="blockquote-footer">John Doe on <cite title="Twitter">Twitter</cite></footer>
+                                <p>The Rolling Stones are an English rock band formed in London in 1962.The Rolling Stones were at the forefront of the British Invasion of bands that became popular in the United States in 1964 and were identified with the youthful and rebellious counterculture of the 1960s. Rooted in blues and early rock and roll, the band started out playing covers but found more success with their own material; songs such as "(I Can't Get No) Satisfaction" and "Paint It Black" became international hits. After a short period of experimentation with psychedelic rock in the mid-1960s, the group returned to its "bluesy" roots with Beggars Banquet (1968), Let It Bleed (1969), Sticky Fingers (1971), and Exile on Main St. (1972). It was during this period they were first introduced on stage as "The Greatest Rock and Roll Band in the World."</p>
                             </blockquote>
                         </div>
                     </div>
@@ -118,43 +97,56 @@
         </section>
     </div>
     <!-- /.testimonials -->
+    
+    <!-- Callout -->
 
-    <!-- Features -->
+    <div class="container-fluid callout2-container">
+        <div class="opaque-overlay">&nbsp;</div <div class="row">
+        <div class="col-12">
+            <section class="callout jumbotron text-center">
+                <!-- <h1>The finest whiskeys delivered to your doorstep.</h1>
+                <hr class="block-divider block-divider--orange">
+                <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                    <s class="d-none d-sm-inline">€19.99</s>
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong>First one is free!</strong></p>
+                <p><button class="btn btn-lg btn--cta btn--brown" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
+                <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p> -->
+            </section>
+        </div>
+    </div>
+    <!-- /.callout -->
 
-    <div class="features container">
-        <section class="features">
+    <!-- Album2 -->
+
+    <div class="-container">
+        <section class="HONK">
             <div class="row">
                 <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Features:</h2>
+                    <h2 class="text-uppercase">HONK Album</h2>
                     <hr />
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                <div class="col">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="img/honk-small.png" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Is the brand-new Best Of compilation album from the Rolling Stones — featuring the biggest hits and classic cuts from every Rolling Stones studio album from 1971 to 2016’s Blue & Lonesome.</p>
+                                <p>This is the most up to date collection of essential Stones’ tracks, including 36 fan favourites and rarities, with the deluxe version featuring 10 additional live songs, presenting collaborations with some of the biggest names in music.</p>
+                                           </blockquote>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
-            </div>
+              </div>
         </section>
     </div>
-    <!-- /.features -->
+    
+    <!-- /.testimonials -->
+
 
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
@@ -193,6 +185,43 @@
             </div>
         </div>
     </div>
+    
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social Links</h5>
+
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                            </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
