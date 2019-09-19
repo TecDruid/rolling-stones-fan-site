@@ -1,4 +1,5 @@
 /* Header */
+
 header {
     margin: 0;
 }
@@ -7,7 +8,10 @@ header {
     margin-left: 50px;
 }
 
-.logo {
+/* sub page images */
+
+.bill-profile {
+    background-image: url("../img/bill-prof.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,12 +20,86 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-/*
-.bill-profile {
-    background-image: url("bill-prof.jpg");
-}*/
+
+.brian-profile {
+    background-image: url("../img/brian-jones.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.charlie-profile {
+    background-image: url("../img/charlie-watts.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.taylor-profile {
+    background-image: url("../img/mike-taylor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.keith-profile {
+    background-image: url("../img/keith-richards.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.ian-profile {
+    background-image: url("../img/ian-stewart.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.jagger-profile    {
+    background-image: url("../img/mick-jagger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.ronnie-profile    {
+    background-image: url("../img/ronnie-wood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 /* Body */
+
 body {
     font-family: 'Stylish', sans-serif;
     background-color: #525252;
