@@ -1,5 +1,33 @@
+/* Header */
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*
+.bill-profile {
+    background-image: url("bill-prof.jpg");
+}*/
+
+/* Body */
 body {
     font-family: 'Stylish', sans-serif;
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
 
 /* Containers */
