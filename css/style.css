@@ -1,4 +1,4 @@
-/* Header */
+/*------------------Header-----------------------------*/
 
 header {
     margin: 0;
@@ -8,7 +8,7 @@ header {
     margin-left: 50px;
 }
 
-/* sub page images */
+/*----------------sub page images----------------------*/
 
 .bill-profile {
     background-image: url("../img/bill-prof.jpg");
@@ -98,17 +98,23 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
-/* Body */
+/*------------------------Body----------------------------*/
 
 body {
     font-family: 'Stylish', sans-serif;
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
+    margin: 0px;
 }
 
-/* Containers */
+@media (min-width: 760px;){
+    .about-container {
+        width:100%;
+    }
+}
+
+/*--------------------------Containers-----------------------*/
 
 .nav-container {
     position: absolute;
@@ -131,6 +137,8 @@ body {
 .navbar-toggler {
     border-width: 0;
 }
+
+/*--------------------------Alert------------------------*/
 
 .alert-warning {
     padding-left: 10;
@@ -190,7 +198,22 @@ body {
     background-color: #c9572b;
 }
 
-/* Block dividers */
+.about-container {
+    margin: 20px;
+    
+}
+
+.honk-container {
+    margin: 20px;
+}
+
+.audio-container{
+    margin-top: 10px;
+    color: red;
+}
+
+
+/*------------------------Block dividers-----------------------*/
 
 .block-divider {
     width: 175px;
@@ -231,7 +254,7 @@ body {
     color: #d0d0d0;
 }
 
-/* Buttons */
+/*----------------------Buttons--------------------------*/
 
 .btn--cta {
     font-weight: bold;
@@ -243,6 +266,7 @@ body {
     color: white;
     background-color: #b36447;
     border-color: #b36447;
+    padding: 5px;
 }
 
 .btn--brown:hover,
@@ -253,3 +277,14 @@ body {
     border-color: #df4929;
     color: white;
 }
+
+
+/*----------------------Footer-------------------------*/ 
+
+.col-align-self-center {
+    float:left; 
+    width:100%; 
+    text-align:center; 
+    
+}
+  
